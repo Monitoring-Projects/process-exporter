@@ -27,8 +27,8 @@ archives:
 checksum:
   name_template: checksums.txt
 nfpms:
-  - homepage: https://github.com/ncabatoff/process-exporter
-    maintainer: nick.cabatoff+procexp@gmail.com
+  - homepage: https://github.com/Monitoring-Projects/process-exporter
+    maintainer: rajpratik71@gmail.com
     description: Prometheus exporter to report on processes running
     license: MIT
     formats:
@@ -51,7 +51,7 @@ nfpms:
       preremove: "packaging/scripts/preremove.sh"
 release:
   github:
-    owner: ncabatoff
+    owner: Monitoring-Projects
     name: process-exporter
   draft: false
   prerelease: true
