@@ -21,13 +21,13 @@ install via [docker](ghcr.io/monitoring-projects/process-exporter).
 Usage:
 
 ```
-  process-exporter [options] -config.path filename.yml
+  process-exporter [options] -config.path config.yaml
 ```
 
 or via docker:
 
 ```
-  docker run -d --rm -p 9256:9256 --privileged -v /proc:/host/proc -v `pwd`:/config ghcr.io/monitoring-projects/process-exporter:master --procfs /host/proc -config.path /config/filename.yml
+  docker run --name process-exporter -d --rm -p 9256:9256 --privileged -v /proc:/host/proc -v `pwd`:/config ghcr.io/monitoring-projects/process-exporter:master --procfs /host/proc -config.path /config/config.yaml
 
 ```
 
