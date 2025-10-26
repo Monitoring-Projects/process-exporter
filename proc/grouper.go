@@ -3,8 +3,8 @@ package proc
 import (
 	"time"
 
+	common "github.com/Monitoring-Projects/process-exporter"
 	seq "github.com/ncabatoff/go-seq/seq"
-	common "github.com/ncabatoff/process-exporter"
 )
 
 type (
