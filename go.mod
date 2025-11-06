@@ -7,7 +7,7 @@ require (
 	github.com/ncabatoff/fakescraper v0.0.0-20201102132415-4b37ba603d65
 	github.com/ncabatoff/go-seq v0.0.0-20180805175032-b08ef85ed833
 	github.com/prometheus/client_golang v1.20.4
-	github.com/prometheus/common v0.61.0
+	github.com/prometheus/common v0.67.2
 	github.com/prometheus/exporter-toolkit v0.11.0
 	github.com/prometheus/procfs v0.19.2
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
@@ -28,11 +28,12 @@ require (
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
 	github.com/rogpeppe/go-internal v1.10.0 // indirect
-	golang.org/x/crypto v0.42.0 // indirect
-	golang.org/x/net v0.44.0 // indirect
-	golang.org/x/oauth2 v0.31.0 // indirect
+	go.yaml.in/yaml/v2 v2.4.3 // indirect
+	golang.org/x/crypto v0.43.0 // indirect
+	golang.org/x/net v0.46.0 // indirect
+	golang.org/x/oauth2 v0.32.0 // indirect
 	golang.org/x/sync v0.17.0 // indirect
 	golang.org/x/sys v0.37.0 // indirect
-	golang.org/x/text v0.29.0 // indirect
+	golang.org/x/text v0.30.0 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
 )
